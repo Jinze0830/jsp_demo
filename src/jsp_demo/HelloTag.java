@@ -8,8 +8,6 @@ import java.io.*;
 public class HelloTag extends SimpleTagSupport {
    public void doTag() throws JspException, IOException {
       JspWriter out = getJspContext().getOut();
-      out.println("Hello First Custom Tag!");
-      
-      
+      out.println("Hello 1st Custom Tag!");      
    }
 }
